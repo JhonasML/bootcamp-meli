@@ -41,6 +41,7 @@ public class Exercicio1 {
 
         SortUtil.sort(celulars);
         Arrays.stream(celulars).forEach(System.out::println);
+
     }
 }
 
@@ -131,6 +132,7 @@ class Celular implements Precedente<Celular> {
                '}';
     }
 }
+
 
 class SortUtil {
     public static <T> void sort (Precedente<T>[] v) {
